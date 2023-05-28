@@ -1,0 +1,112 @@
+.admin-header {
+    position: relative;
+    padding: 15px 30px;
+}
+
+.admin-header h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    font-size: 0.9rem !important;
+}
+
+.breadcrumb-item a {
+    color: #3e8ef7 !important;
+    cursor: pointer;
+}
+
+.breadcrumb-item a:hover {
+    color: #589ffc !important;
+    text-decoration: underline !important;
+}
+
+.admin-setting {
+    float: right;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-setting li:nth-child(1) {
+    margin-left: 10px;
+    order: 1;
+}
+.admin-icons {
+    font-size: 20px;
+}
+.add-admin-btn {
+    border-radius: 100%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn .special-icon {
+    padding: 0px 3px;
+}
+
+.btn .admin-icons-one {
+    font-size: 15px;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #589ffc;
+    border-color: #589ffc;
+    box-shadow: none;
+}
+.btn {
+    padding: 6px 8px;
+}
+
+.btn svg {
+    margin-top: -3px;
+}
+
+.admin-content .admin-filter {
+    position: relative;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: 0.286rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+}
+
+.admin-content .admin-filter .filter-body {
+    padding: 15px 25px;
+    position: relative;
+}
+
+.example-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #495057;
+    margin-bottom: 11px;
+}
+
+.filter-menu {
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-control {
+    box-sizing: border-box;
+    font-weight: 300;
+    border-color: #e4eaec;
+    box-shadow: none;
+    transition: box-shadow .25s linear,border .25s linear,color .25s linear,background-color .25s linear;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.215rem;
+}
+
+.example::before {
+    content: "";
+    display: table;
+}
